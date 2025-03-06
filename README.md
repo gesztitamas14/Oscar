@@ -10,7 +10,6 @@ This is a **NestJS-based REST API** for managing Oscar-winning and nominated mov
 - **MongoDB persistence using Mongoose**
 - **Automatic database seeding** when starting the server (if the database is empty)
 - **Unit and integration tests**
-- **Docker support for easy deployment**
 
 ---
 
@@ -110,11 +109,6 @@ For production deployment:
 ```bash
 npm run build
 npm run start:prod
-```
-
-Or use Docker:
-```bash
-docker-compose up --build -d
 ```
 
 ---
